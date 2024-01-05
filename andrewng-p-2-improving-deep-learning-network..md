@@ -500,7 +500,7 @@ Implications of L2-regularization on:
   v(t) = (beta * v(t-1) + (1-beta) * theta(t)) / (1 - beta^t)
   ```
 - As t becomes larger the `(1 - beta^t)` becomes close to `1`
-
+	``
 ### Gradient descent with momentum
 
 - The momentum algorithm almost always works faster than standard gradient descent.
